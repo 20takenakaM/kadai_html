@@ -1,0 +1,294 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{
+    font-size: 62.5%
+}
+body{
+    color: #222222;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    width: 1200px;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eeeeee;
+}
+ul.header__nav{
+    display: flex;
+}
+.header__nav li{
+   margin-left: 50px; 
+}
+.header__nav>a{
+    color: black;
+}
+/* -----mainvisual----- */
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mainvisual__title{
+    font-size: 3rem;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.mainvisual__subtitle{
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* -----ABOUT----- */
+.profile{
+    padding-top: 60px;
+}
+.ABOUT-wrapper{
+    margin: auto;
+    text-align: center;
+}
+.profile__title{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ffd61a;
+}
+.profile__name{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+.profile__name2{
+    margin: 0 0 40px;
+}
+.profile__text{
+    margin: 0 0 40px;
+    line-height: 2;
+}
+.profile__text2{
+    margin: 0 0 40px;
+    line-height: 2;
+}
+.profile__text3{
+    margin: 0 0 80px;
+    line-height: 2;
+}
+.imgbox{
+    display: flex;
+}
+.imgbox p{
+    width: 25%;
+}
+.imgbox p img{
+    width: 100%;
+}
+
+/* -----COURSE----- */ 
+.course{
+    padding: 60px 0;
+}
+.course__wrapper{
+    margin: auto;
+    text-align: center;
+}
+
+.course__title{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ffd61a;
+}
+.course__subtitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+.course__text{
+    margin: 30px 0 60px;
+    line-height: 1.7;
+}
+
+.course-flex {
+    display: flex;
+  }
+.course-flex.image {
+    width: 640px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .course-flex .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+    background-color: #fafafa;
+  }
+  .course-flex .cours__subtitle {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .course-flex .course__text {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+
+
+/* -----NEWS----- */
+.news{
+    padding: 60px 0;
+    text-align: center;
+}
+.news__title{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ffd61a;
+}
+.news__subtitle{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+    text-decoration: underline;
+}
+.news__item{
+    width: 300px;
+}
+.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+.news__day{
+    margin: 30px 0 24px;
+}
+.news__text{
+    text-align: justify;
+    line-height: 1.5;
+
+}
+.btn{
+    display: block;
+    width: 300px;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    font-size: 1.8rem;
+    margin: 60px 450px;
+}
+.btn:hover{
+    background: #dc143c;
+    color: #707070
+}
+
+/* -----access----- */
+.access-wrapper{
+    margin: auto;
+    text-align: center;
+    background-color: #fafafa;
+}
+.access__title{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ffd61a;
+}
+.access__subtitle{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+.accessform-title{
+display: flex;
+justify-content: space-around;
+}
+.access-form{
+    margin-top: 60px;
+
+}
+.access-text{
+    width: 200px;
+    text-align: center;
+    margin: 10px 0 60px;
+    font-size: 0.5rem;
+}
+
+
+/* -----contact---- */
+.contact{
+    padding: 60px 0 140px;
+}
+.form-wrapper{
+    padding: 60px 0;
+    text-align: center;
+    width: 640px;
+    margin: auto;
+}
+.contact__title{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ffd61a;
+}
+.contact__subtitle{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+    text-decoration: underline;
+}
+.contact__text{
+    margin: 0 0 70px;
+    line-height: 1.5;
+}
+.contact__text1{
+    margin: 0 0 30px;
+    line-height: 1.5;
+}
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 30px;
+}
+.form-title{
+    width: 160px;
+    margin: 0 64px 0 16px;
+    padding: 8px;
+    text-align: right;
+}
+.form-item{
+    width: 400px;
+    margin: 8px 8px 8px 8px;
+}
+.form-parts{
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    border: solid 1px #bfbfbf;
+    padding: 8px;
+}
+.btn-submit{
+    border: none;
+    text-align: center;
+}
+/* -----footer----- */
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+.coppyright{
+    color: white;
+}
